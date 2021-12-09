@@ -6,7 +6,7 @@
 html{
     font-family: 'ubuntu';
     background-color: #eee;
-    width:auto;
+    width:100%;
     color: rgb(235,235,235);
 }
 body{
@@ -47,7 +47,8 @@ img{
     border-radius: 5px;
     text-align: center;
     max-width: 500px;
-    margin: 20px auto;
+    
+    opacity:0.9;
     padding-bottom:10px;
     font-family: 'librebaskerville';
     src: url('Font/LibreBaskerville-Regular.ttf');
@@ -144,8 +145,8 @@ img{
     cursor:pointer;
 }
 #background_img{
-    position:relative;
-    top:5%;
+    position:absolute;
+    top:125px;
     left:25%;
 }
 .logo{
