@@ -1,0 +1,155 @@
+@font-face{
+    font-family: "ubuntu";
+    src: url("Font/Ubuntu-Light.ttf");
+    
+}
+html{
+    font-family: 'ubuntu';
+    background-color: #eee;
+    width:auto;
+    color: rgb(235,235,235);
+}
+body{
+    background-color: rgb(173, 185, 201);
+    margin: auto;
+    width:100%;
+    font-weight:bolder;
+    font-family: 'sourcesanspro-light';
+    src: url('Font/SourceSansPro-Light.ttf');
+}
+
+body div p{
+    padding:0px 50px;
+}
+a{
+    color: rgb(235,235,235);
+}
+hr{
+    opacity: .5;
+}
+img{
+    max-width:750px;
+}
+.title{
+    font-variant-caps: normal;
+    font-size:50px;
+    color:RGB(55, 66, 88);
+}
+.text{
+    padding-left: 10px;
+    margin: 0px 50px;
+    border-radius: 5px;
+}
+.header{
+    background-color: rgb(55, 66, 88);
+    z-index: 1;
+    border: 1px solid #a19b91;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 500px;
+    margin: 20px auto;
+    padding-bottom:10px;
+    font-family: 'librebaskerville';
+    src: url('Font/LibreBaskerville-Regular.ttf');
+}
+.header p{
+    margin: auto;
+ 
+}
+.index{
+    border-radius: 5px;
+    
+    
+    width: fit-content;
+    margin:auto;
+    padding: 5px 5px;
+}
+.index .links{
+    word-spacing: 25px;
+}
+.contact{
+    border-radius: 5px;
+    background-color: #11111b;
+}
+.links{
+    padding: 10px 5px;
+    background-color: rgb(55, 66, 88); 
+    font-family: 'librebaskerville';
+    src: url('Font/LibreBaskerville-Regular.ttf');
+}
+.center_align{
+    text-align: center;
+    padding:  10px 0px;
+    margin:auto;
+}
+.resume{
+    width: 1000px;
+    margin: 20px auto;
+    border: 1px solid #a19b91;
+    border-radius: 10px;
+    
+    background-color: RGB(55, 66, 88);
+}
+.document{
+    width: 750px;
+    margin: 20px auto;
+    border: 1px solid #a19b91;
+    border-radius: 10px;
+    text-align:justify;
+    line-height: 25px;
+    background-color: RGB(55, 66, 88);
+}
+.document h1{
+    text-align:center;
+}
+.links h2{
+    text-align:center;
+}
+.carousel-container{
+    border:5px solid black;
+    position:relative;
+    width:750px;
+    height:750px;
+    margin:auto;
+   overflow: hidden;
+   padding: 0px !important;
+    
+}
+.carousel-slide{
+ 
+    display:flex;
+    width:200%;
+    
+    padding: 0px !important;
+
+}
+#prevBtn{
+    position: absolute;
+    top:50%;
+    z-index: 10;
+    left:5%;
+    font-size:30px;
+    color: white;
+    
+    cursor:pointer;
+}
+#nextBtn{
+    position: absolute;
+    top:50%;
+    z-index: 10;
+    right:5%;
+    font-size:30px;
+    color: white;
+
+    cursor:pointer;
+}
+#background_img{
+    position:relative;
+    top:5%;
+    left:25%;
+}
+.logo{
+    position: absolute;
+    padding: 12.5px 12.5px;
+    width:50px;
+}
